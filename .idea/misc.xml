@@ -14,10 +14,12 @@
         <entry key="..\:/Users/cong8/AndroidStudioProjects/android__week_3/app/src/main/res/drawable/yellow_block.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/android__week_3/app/src/main/res/layout/activity_main.xml" value="0.536" />
         <entry key="..\:/Users/cong8/AndroidStudioProjects/android__week_3/app/src/main/res/layout/activity_main_activity23c.xml" value="0.264" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/android__week_3/app/src/main/res/layout/activity_screen3.xml" value="0.15092592592592594" />
+        <entry key="..\:/Users/cong8/AndroidStudioProjects/android__week_3/app/src/main/res/layout/activity_screen32.xml" value="0.2" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
