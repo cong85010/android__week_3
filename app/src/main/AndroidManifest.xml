@@ -11,13 +11,17 @@
         android:theme="@style/Theme.Week_3">
         <activity
             android:name=".screen3"
-            android:exported="false" />
-        <activity android:name=".screen32">
+             >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".screen32">
+
         </activity>
         <activity android:name=".MainActivity2_3c"></activity>
         <activity android:name=".MainActivity" />

@@ -43,8 +43,8 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="12dp"
         app:backgroundTint="#046FDF"
         app:layout_constraintEnd_toEndOf="@+id/button10"
