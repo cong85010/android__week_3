@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+
     tools:context=".MainActivity2_3c">
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="300dp"
-        android:layout_height="362dp"
+        android:layout_width="186dp"
+        android:layout_height="279dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,9 +31,12 @@
 
     <RatingBar
         android:id="@+id/ratingBar"
-        android:layout_width="217dp"
-        android:layout_height="53dp"
-        android:background="@drawable/ratingbar_empty"
+        android:layout_width="208dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:drawable/edit_text"
         android:isIndicator="true"
         android:numStars="5"
         android:stepSize="0.01"
@@ -64,6 +70,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/ratingBar"
         app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
 
     <TextView
         android:id="@+id/textView20"
@@ -109,7 +116,7 @@
         android:id="@+id/button"
         android:layout_width="359dp"
         android:layout_height="49dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/removeborder"
         android:text="4 MÀU-CHỌN MÀU"
         android:textColor="@color/black"
@@ -121,13 +128,13 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="350dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
         android:text="CHỌN MUA"
         app:backgroundTint="#F40000"
         app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
